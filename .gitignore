@@ -1,0 +1,45 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# SQLite databases
+*.sqlite3
+*.db
+
+# macOS system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+
+# Logs
+*.log
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local instance folders (Flask/FastAPI)
+instance/
+
+# Cache folders
+.cache/
