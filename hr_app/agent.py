@@ -205,7 +205,7 @@ try:
         raise ValueError("GEMINI_API_KEY not found in environment")
     
     model = init_chat_model(
-        "google_genai:gemini-1.5-flash",
+        "google_genai:gemini-2.5-flash",
         temperature=0.1,
     )
     
